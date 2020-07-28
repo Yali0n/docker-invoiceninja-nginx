@@ -1,6 +1,6 @@
-FROM invoiceninja/invoiceninja:4.5.18
+FROM invoiceninja/invoiceninja:alpine-4
 
-LABEL maintainer="Jason Raimondi <jason@raimondi.us>"
+LABEL maintainer="Alexander Längle <a.laengle@fastit.eu>"
 
 ENV NGINX_VERSION 1.15.8-1~stretch
 ENV BUILD_DEPENDENCIES="\
